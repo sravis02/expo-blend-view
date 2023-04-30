@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["ExpoBlendViewModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.blendview.ExpoBlendViewModule"]
+  }
+}

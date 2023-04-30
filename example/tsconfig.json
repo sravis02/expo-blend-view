@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-blend-view": ["../src/index"],
+      "expo-blend-view/*": ["../src/*"]
+    }
+  }
+}
